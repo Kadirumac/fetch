@@ -1,0 +1,37 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #ccc;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card{
+ 
+  width: 300px;
+  height: 130px;
+ 
+}
+
+.info{
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  margin: 20px 10px;
+
+
+}
+
+.renk{
+  background: #67e668;
+  margin-top: 10px;
+}
+.image{
+  float: left;
+  margin: 10px 10px;
+ 
+  height: 120px;
+  width: 120px;
+}
