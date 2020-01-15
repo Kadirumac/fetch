@@ -4,13 +4,7 @@ const eingabe = document.querySelector('.eingabe');
 const senden  = document.querySelector('.senden');
 
 const fetchJSON = async (query,body)=> {
-  let response = await fetch(
-    'http://localhost:9922' + query, {
-    method:'',
-    headers:{ 'Content-Type':'application/json' },
-    body: JSON.stringify(body)
-  });
-  return await response.json();
+
 };
 
 const nachrichtenAbholen = async ()=> {
