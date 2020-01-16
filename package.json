@@ -2,9 +2,10 @@
   "name": "githubuser",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://kadirumac.github.io/fetch/",
+  "homepage": "https://kadirumac.github.io/fetch",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
