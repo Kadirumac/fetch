@@ -5,7 +5,8 @@
   "homepage": "https://kadirumac.github.io/fetch",
   "scripts": {
     "start": "nodemon ./bin/www",
-    "deploy":"gh-pages -d build"
+    "deploy":"gh-pages -d build",
+    "build": "webpack"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
